@@ -3,7 +3,7 @@ public class Speaker
 	private int SpeakerId = 0;
 	private String speakerName;
 	private FieldOfExpertise fieldOfExpertise;
-	private Presentation presentationTopic;
+	private Appointment appointment;
 	private SpeakerType type;
 	
 	public Speaker(String speakerName, FieldOfExpertise field, SpeakerType type)
@@ -24,9 +24,9 @@ public class Speaker
 		return this.fieldOfExpertise;
 	}
 	
-	public Presentation getTopic()
+	public Appointment getAppointment()
 	{
-		return this.presentationTopic;
+		return this.appointment;
 	}
 	
 	public SpeakerType getSpeakerType()
