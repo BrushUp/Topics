@@ -62,7 +62,7 @@ public class Appointment
 		return this.commision;		
 	}
 	
-	public int getDayOfWeek(Calendar date)
+	private int getDayOfWeek(Calendar date)
 	{
 		Calendar calendar = Calendar.getInstance();
 	    int i=calendar.get(Calendar.DAY_OF_WEEK);
